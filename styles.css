@@ -8,11 +8,17 @@ html {
     max-width: 50rem;
     margin: 2rem auto;
     padding: 3rem 1.6rem 6rem 1.6rem;
-    background: linear-gradient(30deg, #3dc0c0, #5bceae);
+    background: linear-gradient(30deg, #3b6e6e, #1fc495);
     border-radius: 4rem;
-    box-shadow: 0 2px 2px lightgray;
+    box-shadow: 0 2px 2px rgb(0, 0, 0);
   }
   
+  body{
+    margin:0;
+    min-height:100vh;
+    background: linear-gradient(30deg, #000000, #35a082);
+  }
+
   h1 {
     text-align: center;
     font-size: 3rem;

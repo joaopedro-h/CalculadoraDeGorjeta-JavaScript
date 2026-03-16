@@ -9,58 +9,68 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Quick Tip</title>
+    <script src="gorjeta.js" defer></script>
+    <title>Calculadora de Gorjeta</title>
+
   </head>
   <body>
-    <main >
-      <h1>Quick Tip</h1>
+    <main oninput ="gorjeta()">
+
+      <h1>Calculadora de Gorjeta</h1>
+
       <section>
         <div class="bill">
-          <label for="yourBill">Bill</label>
+          <label for="yourBill">Conta:</label>
           <input 
             type="number" 
-            placeholder="Your bill" 
-            id="yourBill"  />
+            placeholder="Valor da conta." 
+            id="suaConta" />
         </div>
+
         <div>
           <div class="space-between">
-            <label for="">Select tip</label
-            ><span id="tipPercent">0%</span>
+            <label for="">Selecione a gorjeta.</label
+            ><span id="porcentagemGorjeta">0%</span>
           </div>
-          <input type="range" value="0" id="tipInput" class="range" />
+          <input type="range" value="0" id="campoGorjeta" class="range" />
         </div>
+
         <div class="space-between">
-          <span>Tip</span>
-          <span id="tipValue"></span>
+          <span>Gorjeta:</span>
+          <span id="valorGorjeta"></span>
         </div>
+
         <hr />
+
         <div class="space-between total">
-          <span>Total</span>
-          <span id="totalWithTip"></span>
+          <span>Total:</span>
+          <span id="totalComGorjeta"></span>
         </div>
+
       </section>
 
       <section>
         <div>
           <div class="space-between">
-            <label for="splitInput">Split</label>
-            <span id="splitValue">1</span>
+            <label for="campoPessoas">Pessoa</label>
+            <span id="quantidadePessoas">1</span>
           </div>
           <input
             type="range"
             min="1"
             max="10"
             value="1"
-            id="splitInput"
+            id="divisaoPessoas"
             class="range"
           />
         </div>
+
         <div class="space-between">
-          <span>Bill each</span>
-          <span id="billEach"></span>
+          <span>Valor por pessoa:</span>
+          <span id="cadaPessoa"></span>
         </div>
+
       </section>
     </main>
-    <script src="index.js"></script>
   </body>
 </html>

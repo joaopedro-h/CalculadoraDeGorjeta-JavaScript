@@ -24,9 +24,10 @@ O HTML e o CSS foram utilizados apenas como base visual, enquanto toda a lógica
 
 ## 🔄 Status do Projeto
 
-🚧 **Em desenvolvimento**
+🔄 Status do Projeto
+✅ Finalizado
 
-O projeto está sendo desenvolvido gradualmente, com commits frequentes para registrar o progresso da implementação da lógica em JavaScript.
+O projeto foi concluído com a implementação completa da lógica em JavaScript, organização do HTML e estilização em CSS.
 
 ## 🌐 Acesse o Projeto
 https://joaopedro-h.github.io/CalculadoraDeGorjeta-JavaScript/
